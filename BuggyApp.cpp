@@ -2,6 +2,14 @@
 #include <fstream>
 #include <string>
 
+
+/*
+Steps:
+1. Compile: g++ BuggyApp.cpp -o BuggyApp
+2. Run command: strace -c BuggyApp 
+3. then command: strace buggyApp
+4. summary of errors: 
+*/
 /* problem 1
 arch_prctl(0x3001 // ARCH_??? //, 0x7ffe2ca56c80) = -1 EINVAL (Invalid argument)
 */
